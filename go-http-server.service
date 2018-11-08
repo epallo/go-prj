@@ -1,0 +1,10 @@
+[Unit]
+Description=Go HTTP Server
+
+[Service]
+User=enricopalomeno
+WorkingDirectory=/opt/go-http-server/
+ExecStart=/opt/go-http-server/test
+
+[Install]
+WantedBy=multi-user.target
